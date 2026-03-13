@@ -1,9 +1,9 @@
 # WordPress Server Scripts
 
 ```
+sudo chmod -R +x secure-server-scripts
+```
 
-chmod -R +x secure-server-scripts
-
-sudo ./run.sh
-
+```
+./run.sh
 ```
