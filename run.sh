@@ -25,14 +25,4 @@ case "$STEP" in
         echo 2 > "$STATE_FILE"
         reboot
         ;;
-    2)
-        echo "Running step 2"
-        ./step2.sh
-        echo 3 > "$STATE_FILE"
-        ;;
-    3)
-        echo "Running step 3"
-        ./step3.sh
-        rm -f "$STATE_FILE"
-        ;;
 esac
