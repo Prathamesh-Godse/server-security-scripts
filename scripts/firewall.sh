@@ -3,7 +3,7 @@
 BASE_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
 
 CONFIG_FILE="$BASE_DIR/configs/firewall.conf"
-LOG_FILE="$BASE_DIR/logs/firewall.log"
+LOG_FILE="$BASE_DIR/secure-server-scripts.log"
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') : $1" | tee -a "$LOG_FILE"
